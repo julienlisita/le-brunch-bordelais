@@ -10,11 +10,13 @@ export default function LegalMentionsPage() {
       <Section className="text-creme">
           <div className="mb-6">
             <h3 className="font-semibold">Éditeur du site</h3>
-            <p>Le Brunch Bordelais (site fictif)<br/>
-            Statut : Auto-entrepreneur<br/>
-            Adresse : 12 rue du Brunch, 33000 Bordeaux<br/>
-            Email : contact@brunchbordelais.fr<br/>
-            SIRET : 123 456 789 00000</p>
+            <p>
+              Le Brunch Bordelais <em>(site fictif – projet de démonstration)</em><br />
+              Statut : Entrepreneur individuel<br />
+              Adresse : 12 rue Lagrange, 33000 Bordeaux<br />
+              Email : contact@brunchbordelais.fr<br />
+              SIRET : 123 456 789 00000
+            </p>
           </div>
 
           <div className="mb-6">
@@ -22,15 +24,15 @@ export default function LegalMentionsPage() {
             <p>Jeanne Martin</p>
           </div>
 
-<div className="mb-6">
-  <h3 className="font-semibold">Hébergeur</h3>
-  <p>
-    Vercel Inc.<br />
-    440 N Barranca Ave #4133,<br />
-    Covina, CA 91723, United States<br />
-    <a href="https://vercel.com" className="underline text-[#D8973C]">www.vercel.com</a>
-  </p>
-</div>
+          <div className="mb-6">
+            <h3 className="font-semibold">Hébergeur</h3>
+            <p>
+              Vercel Inc.<br />
+              440 N Barranca Ave #4133,<br />
+              Covina, CA 91723, United States<br />
+              <a href="https://vercel.com" className="underline text-[#D8973C]">www.vercel.com</a>
+            </p>
+          </div>
 
           <div className="mb-6">
             <h3 className="font-semibold">Propriété intellectuelle</h3>
